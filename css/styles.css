@@ -1,90 +1,177 @@
-/* головний колір білий */
+/* головний колір сірий #757575*/
 
 /* Другорядний черний #212121 */
 
-/* білий #FFFFFF */
-
-/* акцнт  */
+/* акцнт  #2196F3*/
 
 /* ВТОРИЧНИЙ задній фон чорний #2F303A */
 :root {
     --primary-text-color: #757575;
+    /* заголовки */
     --second-text-color: #212121;
     --accent-color: #2196F3;
 }
 body{
-    font-family: 'Roboto','Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #F5F5F5;
     color: #757575;
+}
+/* точки спику прибрали */
+ul {
+    list-style: none;
+}
+
+/* main */
+.main{
+    Letter-spacing: 3%
 }
 
 /* логотип */
 .logo {
     font-family: 'Raleway' sans-serif;
     color: var(--second-text-color);
+    Font-style: Bold;
+    Font-size: 26px;
+    Line-height: 31px;
+    Line-height: 100%;
+    Align: Left;
+    Vertical-align: Top;
+    Letter-spacing: 3%;
 }
 /* перша частина логотипа */
 .part {
+    color: #2196F3;
+}
+.logo:hover,
+.logo:focus{
     color: var(--accent-color);
 }
 
 
-/* точки спику прибрали */
-ul {
-    list-style: none;
-}
+
 
 .site-nav .link{
     color: var(--second-text-color);
+    Font-family: Roboto;
+    Font-style: Medium;
+    Font-size: 14px;
+    Line-height: 16px;
+    Line-height: 100%;
+    Align: Left;
+    Vertical-align: Top;
+    Letter-spacing: 2%;
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
     color: var(--accent-color);
 }
 
-/* хіро секція */
-.hiro {
-    color:#FFFFFF;
-    background-color:  #2F303A;
-}
-.button {
-    background-color: var(--accent-color);
-    color: #FFFFFF;
-}
-
-/* привілегії */
-.hhh {
-    color: var(--second-text-color);
-}
-.text {
-    color: var(--primary-text-color);
-}
-
-/* робота фото */
-.job {
-    color: var(--second-text-color);
-}
-
-
-/* команда */
-.team {
-    color: var(--second-text-color);
-}
-.name {
-    color: var(--second-text-color);  
-}
-.work {
-    color: var(--primary-text-color);
-}
-
-/* посилання */
-.foot-logo {
-    color: var(--second-text-color);
-}
-
-/* адреса */
-.address{
+/* hiro */
+.hiro{
     background-color: #2F303A;
+    letter-spacing: 6%;
+}
+.hiro-title {
+    color: #FFFFFF;
+    Font-style: Black;
+    Font-size: 44px;
+    Line-height: 60px;
+    Line-height: 116%;
+    Align: Center;
+    Verticl-align: Top;
+}
+.hiro-button{
+    color: #FFFFFF;
+    background-color: #2196F3;
+    Font-style: Bold;
+    Font-size: 16px;
+    Line-height: 30px;
+    Line-height: 160%;
+    Align: Center;
+    Vertical-align: Center;
+}
+/* sections */
+.section-title{
+    color: var(--second-text-color);
+    Font-style: Bold;
+    Font-size: 36px;
+    Line-height: 42px;
+    Line-height: 100%;
+    Align: Center;
+    Vertical-align: Top;
+}
+/* privileges */
+.privileges-title {
+    color: var(--second-text-color);
+    Font-style: Bold;
+    Font-size: 14px;
+    Line-height: 16px;
+    Line-height: 100%;
+    Align: Left;
+    Vertical-align: Top;
+}
+.privileges-text{
+    color: var(--second-text-color);
+    Font-style: Regular;
+    Font-size: 14px;
+    Line-height: 24px;
+    Line-height: 146%;
+    Align: Left;
+    Vertical-align: Top;
+}
+
+/* team */
+.team-title {
+    color: var(--second-text-color);
+    Font-style: Medium;
+    Font-size: 16px;
+    Line-height: 19px;
+    Line-height: 100%;
+    Align: Center;
+    Vertical-align: Top;
+}
+.work{
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 19px;
+    Line-height: 100%;
+    Align: Center;
+    Vertical-align: Top;
+}
+
+
+/* footer */
+
+.footer{
+    Letter-spacing: 3%;
+}
+
+.foot-logo {
+    font-family: 'Raleway' sans-serif;
+    color: var(--second-text-color);
+    Font-style: Bold;
+    Font-size: 26px;
+    Line-height: 31px;
+    Line-height: 100%;
+    Align: Left;
+    Vertical-align: Top;
+
+}
+/* перша частина логотипа */
+.part {
+    color: #2196F3;
+}
+
+.address {
+    color: #FFFFFF;
+    opacity: .6;
+    background-color: #2F303A;
+    Font-style: Regular;
+    Font-size: 14px;
+    Line-height: 24px;
+    Line-height: 146%;
+    Align: Left;
+    Vertical-align: Top;
 }
 .address-link {
     color: #FFFFFF;
@@ -92,21 +179,40 @@ ul {
 
 
 /* portfolio */
-/* кнопки */
-.button {
+.button{
     color: var(--second-text-color);
     background-color: #F5F4FA;
+    Font-style: Medium;
+    Font-size: 16px;
+    Line-height: 26px;
+    Line-height: 139%;
+    Align: Center;
+    Vertical-align: Top;
+    Letter-spacing: 3%;
 }
 .button:hover,
-.button:focus {
+.button:focus{
     color: #FFFFFF;
     background-color: var(--accent-color);
 }
-
-/* секції */
-.choice {
+.offers-title{
     color: var(--second-text-color);
+    Font-style: Bold;
+    Font-size: 18px;
+    Line-height: 36px;
+    Line-height: 171%;
+    Align:-Left;
+    Vertical-align: Top;
+    Letter-spacing: 6%;
 }
-.type {
-    color: var(--primary-text-color);
+.offers-tipe{
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 30px;
+    Line-height: 160%;
+    Align: Left;
+    Vertical-align: Top;
+    Letter-spacing: 3%;
 }
+
+
