@@ -1,0 +1,112 @@
+/* головний колір білий */
+
+/* Другорядний черний #212121 */
+
+/* білий #FFFFFF */
+
+/* акцнт  */
+
+/* ВТОРИЧНИЙ задній фон чорний #2F303A */
+:root {
+    --primary-text-color: #757575;
+    --second-text-color: #212121;
+    --accent-color: #2196F3;
+}
+body{
+    font-family: 'Roboto','Raleway', sans-serif;
+    background-color: #F5F5F5;
+    color: #757575;
+}
+
+/* логотип */
+.logo {
+    font-family: 'Raleway' sans-serif;
+    color: var(--second-text-color);
+}
+/* перша частина логотипа */
+.part {
+    color: var(--accent-color);
+}
+
+
+/* точки спику прибрали */
+ul {
+    list-style: none;
+}
+
+.site-nav .link{
+    color: var(--second-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+/* хіро секція */
+.hiro {
+    color:#FFFFFF;
+    background-color:  #2F303A;
+}
+.button {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+/* привілегії */
+.hhh {
+    color: var(--second-text-color);
+}
+.text {
+    color: var(--primary-text-color);
+}
+
+/* робота фото */
+.job {
+    color: var(--second-text-color);
+}
+
+
+/* команда */
+.team {
+    color: var(--second-text-color);
+}
+.name {
+    color: var(--second-text-color);  
+}
+.work {
+    color: var(--primary-text-color);
+}
+
+/* посилання */
+.foot-logo {
+    color: var(--second-text-color);
+}
+
+/* адреса */
+.address{
+    background-color: #2F303A;
+}
+.address-link {
+    color: #FFFFFF;
+}
+
+
+/* portfolio */
+/* кнопки */
+.button {
+    color: var(--second-text-color);
+    background-color: #F5F4FA;
+}
+.button:hover,
+.button:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+/* секції */
+.choice {
+    color: var(--second-text-color);
+}
+.type {
+    color: var(--primary-text-color);
+}
