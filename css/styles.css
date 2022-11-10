@@ -32,7 +32,7 @@ ul {
     color: var(--second-text-color);
     Font-style: Bold;
     Font-size: 26px;
-    Line-height: 31px;
+    Line-height: 1/19;
     Line-height: 100%;
     Align: Left;
     Vertical-align: Top;
@@ -55,7 +55,7 @@ ul {
     Font-family: Roboto;
     Font-style: Medium;
     Font-size: 14px;
-    Line-height: 16px;
+    Line-height: 0.4;
     Line-height: 100%;
     Align: Left;
     Vertical-align: Top;
@@ -75,27 +75,34 @@ ul {
     color: #FFFFFF;
     Font-style: Black;
     Font-size: 44px;
-    Line-height: 60px;
+    Line-height: 1.36;
     Line-height: 116%;
     Align: Center;
     Verticl-align: Top;
 }
 .hiro-button{
-    color: #FFFFFF;
-    background-color: #2196F3;
+    font-family: inherit;
+    color: var(--second-text-color);
+    background-color: #F5F4FA;
     Font-style: Bold;
     Font-size: 16px;
-    Line-height: 30px;
+    Line-height: 1.87;
     Line-height: 160%;
     Align: Center;
     Vertical-align: Center;
+    cursor: pointer;
+}
+.hiro-button:hover,
+.hiro-button:focus{
+    color: #FFFFFF;
+    background-color: var(--accent-color);
 }
 /* sections */
 .section-title{
     color: var(--second-text-color);
     Font-style: Bold;
     Font-size: 36px;
-    Line-height: 42px;
+    Line-height: 1.16;
     Line-height: 100%;
     Align: Center;
     Vertical-align: Top;
@@ -105,7 +112,7 @@ ul {
     color: var(--second-text-color);
     Font-style: Bold;
     Font-size: 14px;
-    Line-height: 16px;
+    Line-height: 1.14;
     Line-height: 100%;
     Align: Left;
     Vertical-align: Top;
@@ -114,7 +121,7 @@ ul {
     color: var(--second-text-color);
     Font-style: Regular;
     Font-size: 14px;
-    Line-height: 24px;
+    Line-height: 1.7;
     Line-height: 146%;
     Align: Left;
     Vertical-align: Top;
@@ -125,7 +132,7 @@ ul {
     color: var(--second-text-color);
     Font-style: Medium;
     Font-size: 16px;
-    Line-height: 19px;
+    Line-height: 1.18;
     Line-height: 100%;
     Align: Center;
     Vertical-align: Top;
@@ -133,7 +140,7 @@ ul {
 .work{
     Font-style: Regular;
     Font-size: 16px;
-    Line-height: 19px;
+    Line-height: 1.18;
     Line-height: 100%;
     Align: Center;
     Vertical-align: Top;
@@ -151,7 +158,7 @@ ul {
     color: var(--second-text-color);
     Font-style: Bold;
     Font-size: 26px;
-    Line-height: 31px;
+    Line-height: 1.19;
     Line-height: 100%;
     Align: Left;
     Vertical-align: Top;
@@ -168,7 +175,7 @@ ul {
     background-color: #2F303A;
     Font-style: Regular;
     Font-size: 14px;
-    Line-height: 24px;
+    Line-height: 1.7;
     Line-height: 146%;
     Align: Left;
     Vertical-align: Top;
@@ -180,15 +187,17 @@ ul {
 
 /* portfolio */
 .button{
+    font-family: inherit;
     color: var(--second-text-color);
     background-color: #F5F4FA;
     Font-style: Medium;
     Font-size: 16px;
-    Line-height: 26px;
+    Line-height: 1.6;
     Line-height: 139%;
     Align: Center;
     Vertical-align: Top;
     Letter-spacing: 3%;
+    cursor: pointer;
 }
 .button:hover,
 .button:focus{
@@ -199,7 +208,7 @@ ul {
     color: var(--second-text-color);
     Font-style: Bold;
     Font-size: 18px;
-    Line-height: 36px;
+    Line-height: 2;
     Line-height: 171%;
     Align:-Left;
     Vertical-align: Top;
@@ -208,7 +217,7 @@ ul {
 .offers-tipe{
     Font-style: Regular;
     Font-size: 16px;
-    Line-height: 30px;
+    Line-height: 1.87;
     Line-height: 160%;
     Align: Left;
     Vertical-align: Top;
