@@ -21,12 +21,10 @@ body{
     letter-spacing: 0.03em;
 }
 /* точки спику прибрали */
-
+ul {list-style: none;}
 /* main */
 
-.div { 
-    background-color: #F5F5F5;
-}
+
 /* логотип */
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -34,6 +32,7 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 }
 /* перша частина логотипа */
 .part {
@@ -90,12 +89,20 @@ body{
     text-align: center;
     color: var(--second-text-color);
     background-color: #F5F4FA;
+    cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus{
     color: var(--white-color);
     background-color: var(--accent-color);
 }
+
+
+.div { 
+    background-color: #F5F5F5;
+}
+
+
 /* sections */
 .section-title{
     color: var(--second-text-color);
@@ -178,6 +185,7 @@ body{
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+    cursor: pointer;
 }
 .button:hover,
 .button:focus{
@@ -197,4 +205,16 @@ body{
 ;
 }
 
-
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
