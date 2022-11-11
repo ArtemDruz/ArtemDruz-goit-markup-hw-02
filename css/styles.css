@@ -10,11 +10,14 @@
     /* заголовки */
     --second-text-color: #212121;
     --accent-color: #2196F3;
+    --white-color: #ffffff;
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #F5F5F5;
-    color: #757575;
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 /* точки спику прибрали */
 ul {
@@ -22,146 +25,136 @@ ul {
 }
 
 /* main */
-.main{
-    Letter-spacing: 3%
-}
+
 
 /* логотип */
 .logo {
-    font-family: 'Raleway' sans-serif;
-    color: var(--second-text-color);
-    Font-style: Bold;
-    Font-size: 26px;
-    Line-height: 1/19;
-    Line-height: 100%;
-    Align: Left;
-    Vertical-align: Top;
-    Letter-spacing: 3%;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-style: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    vertical-align: top;
+    text-decoration: none;
 }
 /* перша частина логотипа */
 .part {
     color: #2196F3;
 }
-.logo:hover,
-.logo:focus{
-    color: var(--accent-color);
-}
+
 
 
 
 
 .site-nav .link{
     color: var(--second-text-color);
-    Font-family: Roboto;
-    Font-style: Medium;
-    Font-size: 14px;
-    Line-height: 0.4;
-    Line-height: 100%;
-    Align: Left;
-    Vertical-align: Top;
-    Letter-spacing: 2%;
+    font-family: roboto;
+    font-style: medium;
+    font-size: 14px;
+    line-height: 0.4;
+    vertical-align: Top;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
     color: var(--accent-color);
 }
+.contact .link{
+    color: var(--second-text-color);
+    font-family: roboto;
+    font-style: medium;
+    font-size: 14px;
+    line-height: 0.4;
+
+    vertical-align: Top;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.contact .link:hover,
+.contact .link:focus{
+    color: var(--accent-color);
+}
 
 /* hiro */
-.hiro{
+.hero{
     background-color: #2F303A;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
 }
-.hiro-title {
-    color: #FFFFFF;
-    Font-style: Black;
-    Font-size: 44px;
-    Line-height: 1.36;
-    Line-height: 116%;
-    Align: Center;
-    Verticl-align: Top;
+.hero-title {
+    color: var(--white-color);
+    font-style: black;
+    font-size: 44px;
+    line-height: 1.36;
+    vertical-align: top;
 }
-.hiro-button{
+.hero-button{
     font-family: inherit;
     color: var(--second-text-color);
     background-color: #F5F4FA;
-    Font-style: Bold;
-    Font-size: 16px;
-    Line-height: 1.87;
-    Line-height: 160%;
-    Align: Center;
-    Vertical-align: Center;
+    font-style: bold;
+    font-size: 16px;
+    line-height: 1.87;
+
+    vertical-align: center;
     cursor: pointer;
 }
 .hiro-button:hover,
 .hiro-button:focus{
-    color: #FFFFFF;
+    color: var(--white-color);
     background-color: var(--accent-color);
 }
 /* sections */
 .section-title{
     color: var(--second-text-color);
-    Font-style: Bold;
-    Font-size: 36px;
-    Line-height: 1.16;
-    Line-height: 100%;
-    Align: Center;
-    Vertical-align: Top;
+    font-style: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    vertical-align: top;
 }
 /* privileges */
 .privileges-title {
     color: var(--second-text-color);
-    Font-style: Bold;
-    Font-size: 14px;
-    Line-height: 1.14;
-    Line-height: 100%;
-    Align: Left;
-    Vertical-align: Top;
+    font-style: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    vertical-align: top;
 }
 .privileges-text{
     color: var(--second-text-color);
-    Font-style: Regular;
-    Font-size: 14px;
-    Line-height: 1.7;
-    Line-height: 146%;
-    Align: Left;
-    Vertical-align: Top;
+    font-style: regular;
+    font-size: 14px;
+    line-height: 1.7;
+    vertical-align: top;
 }
 
 /* team */
 .team-title {
     color: var(--second-text-color);
-    Font-style: Medium;
-    Font-size: 16px;
-    Line-height: 1.18;
-    Line-height: 100%;
-    Align: Center;
-    Vertical-align: Top;
+    font-style: medium;
+    font-size: 16px;
+    line-height: 1.18;
+    vertical-align: top;
 }
 .work{
-    Font-style: Regular;
-    Font-size: 16px;
-    Line-height: 1.18;
-    Line-height: 100%;
-    Align: Center;
-    Vertical-align: Top;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 1.18;
+    vertical-align: top;
 }
 
 
 /* footer */
 
-.footer{
-    Letter-spacing: 3%;
-}
+
 
 .foot-logo {
-    font-family: 'Raleway' sans-serif;
-    color: var(--second-text-color);
-    Font-style: Bold;
-    Font-size: 26px;
-    Line-height: 1.19;
-    Line-height: 100%;
-    Align: Left;
-    Vertical-align: Top;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-style: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    vertical-align: top;
 
 }
 /* перша частина логотипа */
@@ -170,18 +163,16 @@ ul {
 }
 
 .address {
-    color: #FFFFFF;
+    color: var(--white-color);
     opacity: .6;
     background-color: #2F303A;
-    Font-style: Regular;
-    Font-size: 14px;
-    Line-height: 1.7;
-    Line-height: 146%;
-    Align: Left;
-    Vertical-align: Top;
+    font-style: regular;
+    font-size: 14px;
+    line-height: 1.7;
+    vertical-align: top;
 }
 .address-link {
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 
@@ -190,38 +181,34 @@ ul {
     font-family: inherit;
     color: var(--second-text-color);
     background-color: #F5F4FA;
-    Font-style: Medium;
-    Font-size: 16px;
-    Line-height: 1.6;
-    Line-height: 139%;
-    Align: Center;
-    Vertical-align: Top;
-    Letter-spacing: 3%;
+    font-style: medium;
+    font-size: 16px;
+    line-height: 1.6;
+
+    align: Center;
+    vertical-align: Top;
+    letter-spacing: 0.03em;
     cursor: pointer;
 }
 .button:hover,
 .button:focus{
-    color: #FFFFFF;
+    color: var(--white-color);
     background-color: var(--accent-color);
 }
 .offers-title{
     color: var(--second-text-color);
-    Font-style: Bold;
-    Font-size: 18px;
-    Line-height: 2;
-    Line-height: 171%;
-    Align:-Left;
-    Vertical-align: Top;
-    Letter-spacing: 6%;
+    font-style: bold;
+    font-size: 18px;
+    line-height: 2;
+    vertical-align: Top;
+    letter-spacing: 0.06em;
 }
 .offers-tipe{
-    Font-style: Regular;
-    Font-size: 16px;
-    Line-height: 1.87;
-    Line-height: 160%;
-    Align: Left;
-    Vertical-align: Top;
-    Letter-spacing: 3%;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 1.87;
+    vertical-align: Top;
+    letter-spacing: 0.03em;
 }
 
 
