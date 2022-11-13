@@ -113,9 +113,7 @@ ul {list-style: none;}
 }
 
 /* team */
-.team {
-    background-color: #F5F4FA;
-}
+
 .team-title {
     color: var(--second-text-color);
     font-weight: 500;
