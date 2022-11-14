@@ -83,14 +83,9 @@ ul {list-style: none;}
     display: flex;
     align-items: center;
     text-align: center;
-    color: var(--second-text-color);
-    background-color: #F5F4FA;
-    cursor: pointer;
-}
-.hero-button:hover,
-.hero-button:focus{
     color: var(--white-color);
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 
@@ -103,6 +98,7 @@ ul {list-style: none;}
 }
 /* privileges */
 .privileges-title {
+    font-size: 14px;
     color: var(--second-text-color);
     line-height: 1.14;
     text-transform: uppercase;
@@ -121,7 +117,7 @@ ul {list-style: none;}
     line-height: 1.18;
     text-align: center;
 }
-.work{
+.team-position{
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -140,7 +136,7 @@ ul {list-style: none;}
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: #000000;
+    color: var(--white-color);
     text-decoration: none;
 }
 .part {
@@ -154,10 +150,21 @@ ul {list-style: none;}
 .address-link {
     color: var(--white-color);
     line-height: 1.71;
+    text-decoration: none;
 }
+.address-link:hover,
+.address-link:focus {
+    color: var(--accent-color);
+}
+
 .address-contact {
     line-height: 1.71;   
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.address-contact:hover,
+.address-contact:focus {
+    color: var(--accent-color);
 }
 
 
